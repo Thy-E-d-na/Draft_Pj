@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c7d752eb2eff945a8f453403991ecd, type: 3}
+  m_Name: TheCrone
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: The Crone
+  soulAvt: {fileID: 21300000, guid: 4f473e6821d83874abb1b2d0f6c9df16, type: 3}
+  lines:
+  - Oh, I wonder where this is?
+  - This is Limbo, a place souls must pass through after their lifespan ends, awaiting
+    karmic judgment.
+  - What a strange place! Dearie, would you kindly lead the way? My eyesight is too
+    poor.
+  - ...
+  - What's wrong, dearie? Did you say anything? It seems like I fail to catch it.
+  - Many souls who come here seem unhappy with life. They wonder, is living in this
+    mortal world worthwhile?
+  - Oh my, you're asking this old lady such a difficult question! But whether it's
+    worthwhile or not is very complicated to say. I don't know how to explain it
+    to you. When I was young, I was a street vendor, with no time to think about
+    anything else except for making earns. Then, in my old age, I lived alone with
+    no children or grandchildren, and I was content with myself.
+  - To put it simply, you only live your own life, how would you know about other
+    people's? So the question is why don't you go experience life for yourself?
+  - Experience my own life?
+  - There are many things in this world that you can't experience in a lifetime.
+    Go see it yourself, then you'll know. But let me tell you something, don't listen
+    to people's nonsense advice. If you want to know what's good or bad, there are
+    laws. Just be a good citizen and obey the law, then we'll figure things out later.
+  - That's hard to understand.
+  - " It\u2019s truly a lot, that\u2019s why you'll understand eventually. I'm just
+    saying this because you're an honest dearie. How you live your life is up to
+    you."
+  - "Live my own life. Find out for myself. Hmm, if possible\u2026"
+  autoNext: 000000000000010000000000
+  autoNextDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  LamAvt: {fileID: 226087177, guid: bf7e77cbf74499f4e8ba4acee6af0693, type: 3}
+  LamResponses: 010000000300000005000000080000000a0000000c000000

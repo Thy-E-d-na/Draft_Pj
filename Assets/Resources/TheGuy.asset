@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c7d752eb2eff945a8f453403991ecd, type: 3}
+  m_Name: TheGuy
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: The Guy
+  soulAvt: {fileID: 21300000, guid: 7c351e0f1f3909f45acee25a96aa0685, type: 3}
+  lines:
+  - '*&%^&* What the hell are you?! Let me go!'
+  - This is Limbo, a place souls must pass through after their lifespan ends, awaiting
+    karmic judgment.
+  - ' Dead? What the f*** are you talking about?! What the hell is death?!'
+  - ...
+  - ' Impossible? Did I really die?!'
+  - ...
+  - "HAHAHAHAHAHAHAHAHAHAHAHA\u2026"
+  - 'That''s good, no more indebted to the sh*tty life. So where do I go now? '
+  - Follow me.
+  - 'Seriously bro, where is this? '
+  - This is Limbo, a place souls must pass through after their lifespan ends, awaiting
+    karmic judgment.
+  - ' I heard ya yapping from the beginning. What I need is the details. More details,
+    understand? '
+  - This is Limbo, a place souls must pass through-
+  - 'Damn it, are you a robot? Why do you keep repeating the same thing? It''s so
+    boring here. When I was alive, I complained about everything, but now I realize
+    it''s quite fun up there. '
+  - Fun? Boring?
+  - 'That''s right! Up there, when you''re bored, you can just find some "fun" things
+    to do. For example, go find a beautiful woman to "talk to", many things that
+    stimulate you and keep you excited all day. Even things like stealing cars, chasing
+    dogs,... In general, things that a country bumpkin like you should experience
+    to know what life is like. '
+  - (Country bumpkin? What is life like?)
+  - 'If we have the chance, I''ll take you to experience it. '
+  - (If you can find fun in the human world, why is it still boring? Isn't that place
+    not worth living in, too?)
+  autoNext: 00000000010101000000000000000000000000
+  autoNextDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  LamAvt: {fileID: 226087177, guid: bf7e77cbf74499f4e8ba4acee6af0693, type: 3}
+  LamResponses: 0100000003000000080000000a0000000c0000000e0000001000000012000000

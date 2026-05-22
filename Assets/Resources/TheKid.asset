@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c7d752eb2eff945a8f453403991ecd, type: 3}
+  m_Name: TheKid
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: The Kid
+  soulAvt: {fileID: 848438789, guid: b3e0d4a917226a345a38395a2fe2dfc6, type: 3}
+  lines:
+  - 'W-where am I?! '
+  - This is Limbo, a place souls must pass through after their lifespan ends, awaiting
+    karmic judgment.
+  - "D-died?! So I-I-I\u2026died? "
+  - ...
+  - "I\u2026don't want to die yet\u2026 "
+  - ' Let''s go.'
+  - ' Are you the Grim Reaper taking me? '
+  - ' Let''s go.'
+  - "What about my siblings\u2026?"
+  - At least, let me bring food back for my siblings.
+  - Impossible.
+  - '*crying* '
+  - " I-I tried\u2026 The humanitarian aid came and brought us food. My siblings
+    haven't received any yet\u2026 "
+  - 'Why? Why is war happening? We just want to go to school and play. Why do bad
+    guys come and claim that where we live is their land? '
+  - 'They deserve to live, but we don''t?! *crying* '
+  - "*touches the bullet wound on the child's head* \u2026Let's go. Let's leave the
+    place that's not worth living in\u2026"
+  autoNext: 00000000000000000100000101010000
+  autoNextDelay: 1
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  LamAvt: {fileID: 226087177, guid: bf7e77cbf74499f4e8ba4acee6af0693, type: 3}
+  LamResponses: 010000000300000005000000070000000a0000000f000000
