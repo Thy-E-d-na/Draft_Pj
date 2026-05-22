@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 3927447744283075112}
   - component: {fileID: 348658031270364791}
   - component: {fileID: 7713841989337893504}
-  - component: {fileID: 6550559293736952172}
   - component: {fileID: -2881685420301871058}
-  - component: {fileID: -8002858432279281237}
+  - component: {fileID: 5916290684933891984}
+  - component: {fileID: 6101378860932026475}
   m_Layer: 0
-  m_Name: SOUL
+  m_Name: FishSoul
   m_TagString: Soul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,19 +115,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6550559293736952172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711341765922572824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b60cf02b15ba4e4eacf82be221ba82a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableSoul
-  dialogueData: {fileID: 0}
 --- !u!195 &-2881685420301871058
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -150,7 +137,7 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &-8002858432279281237
+--- !u!114 &5916290684933891984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,10 +146,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 711341765922572824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9b2532f75715e14a9b1f986c3674ceb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ef5ab67538903e41939a586e82f1016, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SoulMovement
-  agent: {fileID: 0}
-  player: {fileID: 0}
-  soulPref: {fileID: 0}
-  moveSpeed: 8
+  m_EditorClassIdentifier: Assembly-CSharp::Buoyancy
+  underWaterDrag: 3
+  underWaterAngularDrag: 1
+  defaultDrag: 0
+  defaultAngularDrag: 0.05
+--- !u!54 &6101378860932026475
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711341765922572824}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
