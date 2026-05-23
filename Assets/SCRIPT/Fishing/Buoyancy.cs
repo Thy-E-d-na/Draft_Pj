@@ -39,7 +39,13 @@ public class Buoyancy : MonoBehaviour
         SetState(isUnderWater);
     }
 
-
+    void floatingOnWave()
+    {
+        for (int i = 0; i < floaters.Count; i++)
+        {
+           // floaters[i].transform.position.y
+}
+    }
     void SetState(bool isUnderWater)
     {
         if (isUnderWater)
@@ -66,11 +72,11 @@ public class Floater
         float distance2Surface = floater.position.y - wave.waterHeightAtPosition(waterLine.position);
         if (distance2Surface < 0)
         {
-            rg.AddForceAtPosition(Vector3.up * floatForce * Mathf.Abs(distance2Surface),floater.position,ForceMode.Force);
-            if(!isUnderwater ) 
-            isUnderwater = true;
+            rg.AddForceAtPosition(Vector3.up * floatForce * Mathf.Abs(distance2Surface), floater.position, ForceMode.Force);
+            if (!isUnderwater)
+                isUnderwater = true;
         }
-        else if(isUnderwater)
+        else if (isUnderwater)
         {
             isUnderwater = false;
         }
